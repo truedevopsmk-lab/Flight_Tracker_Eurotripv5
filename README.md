@@ -1,4 +1,3 @@
-
 ---
 
 # ✈️ Travel Itinerary — Bengaluru → Budapest → Prague → Bengaluru
@@ -36,7 +35,7 @@
 
 ## 🛬 Return: Prague (PRG) → Bengaluru (BLR)
 
-**Date:** Wed, Dec 3
+**Date:** Fri, Dec 5
 
 ### **Segment 1**
 
@@ -47,15 +46,15 @@
 * **Aircraft:** Airbus A330
 * **Class:** Coach (Q)
 
-**Layover in Doha (DOH):** 3h 5m
+**Layover in Doha (DOH):** 3h 0m
 
 ### **Segment 2**
 
-* **Flight:** Qatar Airways 572
-* **Departure:** 7:50 PM
-* **Arrival:** 2:20 AM (+1 day)
+* **Flight:** Qatar Airways 4786 *(Operated by Indigo)*
+* **Departure:** 7:45 PM
+* **Arrival:** 2:15 AM (+1 day)
 * **Duration:** 4h 0m
-* **Aircraft:** Airbus A350
+* **Aircraft:** Airbus A321
 * **Class:** Coach (Q)
 
 ---
@@ -75,7 +74,7 @@ Provide these details to your travel agent to match the exact fare.
 ### **Fare 2**
 
 * **Carrier:** QR
-* **Code:** QJINP1RE
+* **Code:** QJINPIRE
 * **Route:** PRG → DOH → BLR
 * **Class:** Q (Economy)
 * **Price:** ₹21,325
@@ -110,7 +109,7 @@ Provide these details to your travel agent to match the exact fare.
 # 📜 Fare Construction (for Travel Agents)
 
 ```
-BLR QR X/DOH QR BUD 98.28TJINP1RE /-PRG QR X/DOH QR BLR 240.22QJINP1RE 
+BLR QR X/DOH QR BUD 98.28TJINP1RE /-PRG QR X/DOH QR BLR 240.22QJINPIRE 
 NUC 338.50 END ROE 88.77033 
 XT 1770IN 2629K3 1255P2 2920G4 266PZ 2920QA 488R9 2951CZ 18608YQ 3900YR
 ```
@@ -123,5 +122,3 @@ XT 1770IN 2629K3 1255P2 2920G4 266PZ 2920QA 488R9 2951CZ 18608YQ 3900YR
 * Cancellations incur penalty fees.
 
 ---
-
-If you want, Jarvis can also convert this into a **GitHub README template**, add icons/tables, or generate a **travel summary card**.

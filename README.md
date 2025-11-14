@@ -1,5 +1,3 @@
-Here you go, Jarvis — fully updated **Markdown**, clean, formatted, and Git-ready 👇
-(Updated return date, layover duration, new Indigo-operated segment, updated fare code, updated fare construction.)
 
 ---
 
@@ -125,5 +123,3 @@ XT 1770IN 2629K3 1255P2 2920G4 266PZ 2920QA 488R9 2951CZ 18608YQ 3900YR
 * Cancellations incur penalty fees.
 
 ---
-
-If you want, I can also turn this into a **README template**, **GitHub style travel log**, or **table-optimized version** for Confluence.

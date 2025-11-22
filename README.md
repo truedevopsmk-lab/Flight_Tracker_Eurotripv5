@@ -3,7 +3,6 @@
 
 # ✈️ Travel Itinerary — Bengaluru → Budapest → Prague → Bengaluru
 
-**Source:** matrix.itasoftware.com
 **Cities:** Bengaluru / Budapest
 
 ---

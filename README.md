@@ -1,3 +1,11 @@
+## Website Navigation
+
+- ✈️ [Flights](flights/)
+- 📸 [Gallery](gallery/)
+- 🧳 [Travel Log](Travel-Log/)
+- 🛣 [Trip Summary](BLR-BUD-BER-BLR/)
+- 🕒 [Timeline](timeline/)
+- 💰 [Expenses](expenses/)
 
 ---
 

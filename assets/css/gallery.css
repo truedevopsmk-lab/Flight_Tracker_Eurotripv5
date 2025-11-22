@@ -1,0 +1,9 @@
+.gallery-container {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+}
+.gallery-item img {
+  width: 100%;
+  border-radius: 8px;
+}

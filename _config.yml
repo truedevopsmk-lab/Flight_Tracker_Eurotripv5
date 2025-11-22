@@ -1,20 +1,53 @@
 theme: jekyll-theme-time-machine
 
+# Clean URLs
+permalink: pretty
+
+# Collections for structured content
 collections:
-  blrtrip:
+  trips:
     output: true
-  travellog:
+  logs:
+    output: true
+  flights:
+    output: true
+  galleries:
     output: true
 
+# Defaults for specific folders
 defaults:
   - scope:
       path: "BLR-BUD-BER-BLR"
     values:
-      layout: blr_trip_layout
+      layout: trip_layout
   - scope:
       path: "Travel-Log"
     values:
-      layout: travel_log_layout
+      layout: log_layout
+  - scope:
+      path: "flights"
+    values:
+      layout: flight_layout
+  - scope:
+      path: "gallery"
+    values:
+      layout: gallery_layout
+  - scope:
+      path: "timeline"
+    values:
+      layout: timeline_layout
+  - scope:
+      path: "expenses"
+    values:
+      layout: expenses_layout
+  - scope:
+      path: ""
+    values:
+      sitemap: true
+
+# Plugins (auto supported on GitHub Pages)
+plugins:
+  - jekyll-sitemap
 
 
 title: "Eurotrip Flight & Planning Tracker"

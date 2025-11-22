@@ -1,0 +1,15 @@
+- category: Flights
+  desc: BLR → BUD
+  amount: 32000
+
+- category: Hotels
+  desc: Budapest 2 nights
+  amount: 14000
+
+- category: Food
+  desc: Day 1 meals
+  amount: 3500
+
+- category: Transport
+  desc: Airport to hotel taxi
+  amount: 2100

@@ -1,3 +1,10 @@
+---
+title: BLR → BUD → BER → BLR
+layout: trip_layout
+---
+
+# Trip Summary
+
 # BLR → BUD (arrive Budapest) — Return from Prague to Bengaluru
 
 **Trip window used:** Outbound: *26 Nov 2025 (afternoon) → arrive BUD* — Return: *5 Dec 2025 (morning) — depart PRG → BLR*

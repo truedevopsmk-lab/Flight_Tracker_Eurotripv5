@@ -1,0 +1,1 @@
+document.getElementById("timeline-container").innerHTML = "<p>Timeline coming soon...</p>";

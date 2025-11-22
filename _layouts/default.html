@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Core CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <!-- Dark mode -->
+  <link rel="stylesheet" href="/assets/css/dark.css" id="dark-theme">
+
+</head>
+
+<body class="page-body">
+
+  <!-- Navbar -->
+  {% include navbar.html %}
+
+  <!-- Breadcrumbs -->
+  {% include breadcrumbs.html %}
+
+  <main class="page-content">
+    {{ content }}
+  </main>
+
+  <!-- Dark mode toggle JS -->
+  <script src="/assets/js/darkmode.js"></script>
+
+</body>
+</html>
+

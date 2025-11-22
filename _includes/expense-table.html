@@ -1,0 +1,27 @@
+<table class="expense-table">
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Description</th>
+      <th>Amount (₹)</th>
+    </tr>
+  </thead>
+
+  <tbody id="expense-body">
+    {% for item in site.data.expenses %}
+    <tr>
+      <td>{{ item.category }}</td>
+      <td>{{ item.desc }}</td>
+      <td class="rupees">{{ item.amount }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <td></td>
+      <td><strong>Total</strong></td>
+      <td id="total-expenses"><strong>0</strong></td>
+    </tr>
+  </tfoot>
+</table>

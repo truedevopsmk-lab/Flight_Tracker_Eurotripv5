@@ -2,4 +2,4 @@
 layout: trip_layout
 title: Trip
 ---
-Trip
+Trip content

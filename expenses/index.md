@@ -2,4 +2,4 @@
 layout: expenses_layout
 title: Expenses
 ---
-Expenses
+Expenses content

@@ -2,4 +2,4 @@
 layout: flight_layout
 title: Flights
 ---
-Flights page
+Flights content

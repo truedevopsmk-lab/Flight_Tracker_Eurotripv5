@@ -1,20 +1,13 @@
-theme: jekyll-theme-time-machine
 
-# Clean URLs
+theme: jekyll-theme-time-machine
+baseurl: "/Flight_Tracker_Eurotripv5"
+url: "https://truedevopsmk-lab.github.io"
+
 permalink: pretty
 
-# Collections for structured content
-collections:
-  trips:
-    output: true
-  logs:
-    output: true
-  flights:
-    output: true
-  galleries:
-    output: true
+plugins:
+  - jekyll-sitemap
 
-# Defaults for specific folders
 defaults:
   - scope:
       path: "BLR-BUD-BER-BLR"
@@ -40,16 +33,3 @@ defaults:
       path: "expenses"
     values:
       layout: expenses_layout
-  - scope:
-      path: ""
-    values:
-      sitemap: true
-
-# Plugins (auto supported on GitHub Pages)
-plugins:
-  - jekyll-sitemap
-
-
-title: "Eurotrip Flight & Planning Tracker"
-description: "Live travel planning notes, logs, and updates"
-

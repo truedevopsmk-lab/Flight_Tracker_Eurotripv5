@@ -1,6 +1,5 @@
 ---
-title: Trip Expenses
 layout: expenses_layout
+title: Expenses
 ---
-
-# Expenses
+Expenses

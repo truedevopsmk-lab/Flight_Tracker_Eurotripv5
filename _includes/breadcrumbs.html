@@ -1,13 +1,1 @@
-<div class="breadcrumbs">
-  <a href="/">Home</a>
-
-  {% assign url_parts = page.url | split: '/' %}
-  {% assign path = "" %}
-
-  {% for part in url_parts %}
-    {% unless part == "" %}
-      {% assign path = path | append: "/" | append: part %}
-      › <a href="{{ path }}/">{{ part | replace:'-',' ' | capitalize }}</a>
-    {% endunless %}
-  {% endfor %}
-</div>
+<div>Home</div>

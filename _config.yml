@@ -1,6 +1,21 @@
-remote_theme: pages-themes/primer@v0.6.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+theme: jekyll-theme-time-machine
+
+collections:
+  blrtrip:
+    output: true
+  travellog:
+    output: true
+
+defaults:
+  - scope:
+      path: "BLR-BUD-BER-BLR"
+    values:
+      layout: blr_trip_layout
+  - scope:
+      path: "Travel-Log"
+    values:
+      layout: travel_log_layout
+
 
 title: "Eurotrip Flight & Planning Tracker"
 description: "Live travel planning notes, logs, and updates"

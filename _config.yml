@@ -1,4 +1,7 @@
-remote_theme: pages-themes/architect@v0.2.0
+theme: jekyll-theme-hacker
+title: "Eurotrip Flight & Planning Tracker"
+description: "Live travel planning notes, logs, and updates"
+
 
 url: "https://truedevopsmk-lab.github.io"
 baseurl: "/Flight_Tracker_Eurotripv5"
